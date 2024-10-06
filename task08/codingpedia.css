@@ -1,0 +1,31 @@
+.box {
+    border: solid black 2px;
+    margin: 10 px;
+    padding: 10px;
+    background-color: white;
+}
+
+body {
+    background-color: gray;
+}
+
+main {
+    display: flexbox;
+    align-items: justify-content;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+
+}
+
+aside {
+    display: flexbox;
+    align-items: justify-content;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.title{
+    display: grid;
+    aspect-ratio: 5/1;
+}
